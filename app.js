@@ -176,5 +176,6 @@ function resetTimer(){
     sec=0
     min=0;
     hour=0;
+    document.getElementById("display").style.color="green";
     document.getElementById("display").innerHTML="00:00:00";
 }
